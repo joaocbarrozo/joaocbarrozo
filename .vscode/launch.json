@@ -1,0 +1,37 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch potencialGeneDetector",
+            "request": "launch",
+            "mainClass": "potencialGeneDetector",
+            "projectName": "aula03_28403a47"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloString",
+            "request": "launch",
+            "mainClass": "HelloString",
+            "projectName": "aula03_28403a47"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticVsInstanceMethods",
+            "request": "launch",
+            "mainClass": "StaticVsInstanceMethods",
+            "projectName": "aula03_28403a47"
+        },
+        {
+            "type": "java",
+            "name": "Launch palindromeChecker",
+            "request": "launch",
+            "mainClass": "palindromeChecker",
+            "projectName": "aula03_28403a47",
+            "args": "1234"
+        }
+    ]
+}
