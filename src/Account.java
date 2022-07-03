@@ -1,6 +1,18 @@
 public class Account {
     private String number; // Instance variable
-    static String bank = "xyz";
+    static final String bank = "xyz";
+
+    /**
+     * Default constructor
+     */
+    public Account(){
+        System.out.println(String.format("Object %s was created", System.identityHashCode(this)));
+        this.number = "0"; 
+    }
+    //Overload constructor
+    public Account(String number){
+        setNumber(number);
+    }
 
     /**
      * The account format is formed by two parts separeted by hyphen: 
