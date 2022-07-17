@@ -4,6 +4,26 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "Launch TurmaTeste",
+            "request": "launch",
+            "mainClass": "TurmaTeste",
+            "projectName": "aula05-sistema-academico_6c5e73c7"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatriculaTeste",
+            "request": "launch",
+            "mainClass": "MatriculaTeste",
+            "projectName": "aula05-sistema-academico_6c5e73c7"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlunoTeste",
+            "request": "launch",
+            "mainClass": "AlunoTeste",
+            "projectName": "aula05-sistema-academico_6c5e73c7"
+        }
     ]
 }
